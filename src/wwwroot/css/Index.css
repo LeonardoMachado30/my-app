@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+:root {
+  --bg-primary: #1d1d42;
+  --bg-secondary: #4e2ecf;
+  --bg-secondary-ligth: #4e2ecf41;
+  --color-green: #6fcf97;
+  --color-ligth: #ffffff;
+  --border-radius-button: 8px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inconsolata", monospace, "Roboto Serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #3f3f3f;
+  color: var(--color-ligth);
+}
+
+code {
+  font-family: "Roboto sans-serif", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}
+
+a,
+button {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  background: var(--color-green);
+  color: var(--color-ligth);
+}
+
+.card {
+  background: var(--bg-secondary-ligth);
+}
+
+.view-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
